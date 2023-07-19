@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pure Calm Leaf</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="topBar">
+        <p>Free shipping orders above 49$</p>
+      </div>
+
+      <div class="secondar_menuBar flex-row">
+        <a href="index.html">
+        <div class="main_logo">
+          <img src="/assets/main_logo1.svg" alt="" />
+          <img src="/assets/main_logo2.svg" alt="" />
+        </div>
+      </a>
+      
+        <div class="support_wishlist">
+          <div class="search_bar">
+            <input type="text" placeholder="Search for products" value="" />
+            <img src="/assets/search_icon.svg" alt="" />
+          </div>
+          <button id="theme_Button">
+            <img src="/assets/theme_toggle_icon.svg" alt="" />
+          </button>
+
+          <div class="widget_Area">
+            <a href="">
+            <button id="support" class="support">
+              <span>Support</span>
+              <img src="/assets/questionMark_icon.svg" alt="" />
+            </button>
+          </a>
+          <a href="">
+            <button id="wishlist-menu" class="wishlist">
+              <span>Wishlist</span>
+              <img src="/assets/wishlist_product_icon-light-white.svg" alt="" />
+            </button>
+          </a>
+          </div>
+        </div>
+
+        <!-- for mobile/tablet -->
+        <div class="mobile-icons">
+          <button id="shopping-cart">
+            <img src="/assets/shopping_bag-green.svg" alt="" />
+          </button>
+          <button id="hamburger-menu">
+            <img src="/assets/hamburger.svg" alt="" />
+          </button>
+          <div class="overlay"></div>
+        </div>
+
+        <!-- accordion -->
+        <div id="main-accordion" class="accordion">
+          <img id="backArrow" src="/assets/off-canvas-backArrow.svg" alt="" />
+          <!-- accordion for Shop By Categories -->
+          <div class="accordion-item">
+            <div class="accordion-header">Shop By Category</div>
+            <div class="accordion-content">
+              <div class="accordion-item">
+                <div class="accordion-header">Featured</div>
+                <div class="accordion-content">
+                  <ul>
+                    <li><a href="">New Products</a></li>
+                    <li><a href="">Best Seller</a></li>
+                    <li><a href="">Sale/Bundles</a></li>
+                    <li><a href="">Apparel</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header">Ingredient</div>
+                <div class="accordion-content">
+                  <ul>
+                    <li><a href="">Delta-9</a></li>
+                    <li><a href="">Delta-8</a></li>
+                    <li><a href="">HHC</a></li>
+                    <li><a href="">CBD</a></li>
+                    <li><a href="">THC Blends</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header">Type</div>
+                <div class="accordion-content">
+                  <ul>
+                    <li><a href="">Disposable Vapes</a></li>
+                    <li><a href="">Vape Cartridge</a></li>
+                    <li><a href="">Edibles/Gummies</a></li>
+                    <li><a href="">Flower</a></li>
+                    <li><a href="">Tinctures</a></li>
+                    <li><a href="">Pet Supplies</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header">Benefits</div>
+                <div class="accordion-content">
+                  <ul>
+                    <li><a href="">Appetite</a></li>
+                    <li><a href="">Energy</a></li>
+                    <li><a href="">Focus</a></li>
+                    <li><a href="">Relief</a></li>
+                    <li><a href="">Sleep</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- accordion for Shop By Strains -->
+          <div class="accordion-item">
+            <div class="accordion-header">Shop By Strains</div>
+            <div class="accordion-content">
+              <a class="option" href="">
+                <div class="strain">
+                  <img src="/assets/indica.svg" alt="" />
+                  <p>Indica</p>
+                </div>
+              </a>
+              <a class="option" href="">
+                <div class="strain">
+                  <img src="/assets/sativa.svg" alt="" />
+                  <p>Sativa</p>
+                </div>
+              </a>
+              <a class="option" href="">
+                <div class="strain">
+                  <img src="assets/hybrid.svg" alt="" />
+                  <p>Hybrid</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- accordion for Shop By Brands -->
+          <div class="accordion-item">
+            <div class="accordion-header">Shop by Brands</div>
+            <div class="accordion-content">
+              <div class="menu-column">
+                <ul>
+                  <li><a href="">3 Chi</a></li>
+                  <li><a href="">Buzz City</a></li>
+                  <li><a href="">Dimo Hemp</a></li>
+                  <li><a href="">Ghost Hemp</a></li>
+                  <li><a href="">Koi</a></li>
+                  <li><a href="">Moonwlkr</a></li>
+                  <li><a href="">Space Gods</a></li>
+                </ul>
+              </div>
+              <div class="menu-column">
+                <ul>
+                  <li><a href="">8 THC</a></li>
+                  <li><a href="">Kali Extract</a></li>
+                  <li><a href="">Exodus</a></li>
+                  <li><a href="">Happi + Strange clouds</a></li>
+                  <li><a href="">Kush Brust</a></li>
+                  <li><a href="">Mr. O's</a></li>
+                  <li><a href="">Sugar Extract Collaboration</a></li>
+                </ul>
+              </div>
+              <div class="menu-column">
+                <ul>
+                  <li><a href="">Bailey's Pet Products</a></li>
+                  <li><a href="">Clean Remedies</a></li>
+                  <li><a href="">Extrax</a></li>
+                  <li><a href="">Happy Fruit</a></li>
+                  <li><a href="">Looper</a></li>
+                  <li><a href="">Pure Clear</a></li>
+                  <li><a href="">Torch</a></li>
+                </ul>
+              </div>
+              <div class="menu-column">
+                <ul>
+                  <li><a href="">Binoid</a></li>
+                  <li><a href="">Detla Ape</a></li>
+                  <li><a href="">Fenix</a></li>
+                  <li><a href="">Hummingbird Extracts</a></li>
+                  <li><a href="">Looper + Packwood</a></li>
+                  <li><a href="">Salp Hemp Co.</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- accordion for Resources -->
+          <div class="accordion-item">
+            <div class="accordion-header">Resources</div>
+            <div class="accordion-content">
+              <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">FAQ's</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="">Is Delta - 8 Legal?</a></li>
+                <li><a href="">Is Delta - 9 Legal?</a></li>
+                <li><a href="">Lab Results</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- accordion -->
+      </div>
+      <!-- for mobile/tablet -->
+
+      <nav class="primary_menuBar">
+        <ul>
+          <li class="home"><a href="">Home</a></li>
+
+          <!-- dropdonw for Shop Menu -->
+          <li class="dropdown">
+            <a href="">Shop</a>
+            <div class="dropdown-content">
+              <div class="mega-menu">
+                <div class="menu-column">
+                  <ul>
+                    <h3>Featured</h3>
+                    <li><a href="">New Products</a></li>
+                    <li><a href="">Best Seller</a></li>
+                    <li><a href="">Sale/Bundles</a></li>
+                    <li><a href="">Apparel</a></li>
+                  </ul>
+                </div>
+                <div class="menu-column">
+                  <ul>
+                    <h3>Ingredient</h3>
+                    <li><a href="">Delta-9</a></li>
+                    <li><a href="">Delta-8</a></li>
+                    <li><a href="">HHC</a></li>
+                    <li><a href="">CBD</a></li>
+                    <li><a href="">THC Blends</a></li>
+                  </ul>
+                </div>
+                <div class="menu-column">
+                  <ul>
+                    <h3>Type</h3>
+                    <li><a href="">Disposable Vapes</a></li>
+                    <li><a href="">Vape Cartridge</a></li>
+                    <li><a href="">Edibles/Gummies</a></li>
+                    <li><a href="">Flower</a></li>
+                    <li><a href="">Tinctures</a></li>
+                    <li><a href="">Pet Supplies</a></li>
+                  </ul>
+                </div>
+                <div class="menu-column">
+                  <ul>
+                    <h3>Benefits</h3>
+                    <li><a href="">Appetite</a></li>
+                    <li><a href="">Energy</a></li>
+                    <li><a href="">Focus</a></li>
+                    <li><a href="">Relief</a></li>
+                    <li><a href="">Sleep</a></li>
+                  </ul>
+                </div>
+                <div class="menu-column image-column">
+                  <img src="/assets/dropdownImage.svg" alt="Image" />
+                </div>
+              </div>
+              <div class="info-boxes">
+                <div class="info-box">
+                  <img src="/assets/car-light.svg" alt="" />
+                  <div class="content">
+                    <h3>Free Shipping</h3>
+                    <p>All orders above $49</p>
+                  </div>
+                </div>
+                <div class="info-box">
+                  <img src="/assets/stering_Icon.svg" alt="" />
+                  <div class="content">
+                    <h3>Leading Support</h3>
+                    <p>Visit our help desk</p>
+                  </div>
+                </div>
+                <div class="info-box">
+                  <img src="/assets/badge.svg" alt="" />
+                  <div class="content">
+                    <h3>Certifird & Tested CBD</h3>
+                    <p>Find out more</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- ------------//dropdonw for Shop Menu------------>
+
+          <!-- dropdonw for Shop By Strain -->
+          <li class="dropdown dropdown2">
+            <a href="">Shop By Strain</a>
+            <div class="dropdown-content2">
+              <a class="option" href="">
+                <div class="strain">
+                  <img src="/assets/indica.svg" alt="" />
+                  <p>Indica</p>
+                </div>
+              </a>
+              <a class="option" href="">
+                <div class="strain">
+                  <img src="/assets/sativa.svg" alt="" />
+                  <p>Sativa</p>
+                </div>
+              </a>
+              <a class="option" href="">
+                <div class="strain">
+                  <img src="assets/hybrid.svg" alt="" />
+                  <p>Hybrid</p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <!-----------//dropdonw for Shop By Strain----------->
+
+          <!-- dropdonw for Shop By Brands -->
+          <li id="brands" class="dropdown">
+            <a href="">Shop by Brands</a>
+            <div class="dropdown-content">
+              <div class="mega-menu">
+                <div class="menu-column">
+                  <ul>
+                    <li><a href="">3 Chi</a></li>
+                    <li><a href="">Buzz City</a></li>
+                    <li><a href="">Dimo Hemp</a></li>
+                    <li><a href="">Ghost Hemp</a></li>
+                    <li><a href="">Koi</a></li>
+                    <li><a href="">Moonwlkr</a></li>
+                    <li><a href="">Space Gods</a></li>
+                  </ul>
+                </div>
+                <div class="menu-column">
+                  <ul>
+                    <li><a href="">8 THC</a></li>
+                    <li><a href="">Kali Extract</a></li>
+                    <li><a href="">Exodus</a></li>
+                    <li><a href="">Happi + Strange clouds</a></li>
+                    <li><a href="">Kush Brust</a></li>
+                    <li><a href="">Mr. O's</a></li>
+                    <li><a href="">Sugar Extract Collaboration</a></li>
+                  </ul>
+                </div>
+                <div class="menu-column">
+                  <ul>
+                    <li><a href="">Bailey's Pet Products</a></li>
+                    <li><a href="">Clean Remedies</a></li>
+                    <li><a href="">Extrax</a></li>
+                    <li><a href="">Happy Fruit</a></li>
+                    <li><a href="">Looper</a></li>
+                    <li><a href="">Pure Clear</a></li>
+                    <li><a href="">Torch</a></li>
+                  </ul>
+                </div>
+                <div class="menu-column">
+                  <ul>
+                    <li><a href="">Binoid</a></li>
+                    <li><a href="">Detla Ape</a></li>
+                    <li><a href="">Fenix</a></li>
+                    <li><a href="">Hummingbird Extracts</a></li>
+                    <li><a href="">Looper + Packwood</a></li>
+                    <li><a href="">Salp Hemp Co.</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!----------- dropdonw for Shop By Brands--------- -->
+
+          <!-- dropdonw for Resources -->
+          <li id="resources" class="dropdown dropdown2">
+            <a href="">Resources</a>
+            <div class="dropdown-content2">
+              <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">FAQ's</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="">Is Delta - 8 Legal?</a></li>
+                <li><a href="">Is Delta - 9 Legal?</a></li>
+                <li><a href="">Lab Results</a></li>
+              </ul>
+            </div>
+          </li>
+          <!-----------//dropdonw for Resources----------->
+        </ul>
+
+        <div class="widget_Area">
+          <a href="loginpage.html">
+          <button id="user-account" class="support">
+            <span>Log in/Register</span>
+            <img src="/assets/user_icon.svg" alt="" />
+          </button>
+        </a>
+        <a href="">
+          <button id="shopping-cart" class="wishlist">
+            <span>Shopping Cart</span>
+            <img src="/assets/shopping_bag.svg" alt="" />
+          </button>
+        </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-------------- Hero Section Starts------------- -->
+      <section class="section-1">
+        <div class="container">
+          <div class="hero-section">
+            <p>While Stock Lasts</p>
+            <h1>
+              Flat 30% off All <br />
+              Products
+            </h1>
+            <a href="">
+              <div class="btn-container">
+                <button class="cta-btn">Browse All</button>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-------------- Hero Section Ends------------- -->
+
+      <!--------------- Section-2 Starts --------------->
+      <section class="section-2">
+        <div class="container">
+          <div class="reviews">
+            <div class="average_reviews">
+              <h2>Excellent</h2>
+              <img class="stars" src="/assets/Rating Stars.svg" alt="" />
+              <p>Based on 678 reviews</p>
+            </div>
+
+            <div class="owl-carousel carousel_se_01_carousel owl-theme">
+              <div class="item">
+                <img class="stars" src="/assets/Rating Stars.svg" alt="" />
+                <span>Great Service, Love their...</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                  deleniti!
+                </p>
+                <span>Hannah Montana, 22 hoirs ago</span>
+              </div>
+              <div class="item">
+                <img class="stars" src="/assets/Rating Stars.svg" alt="" />
+                <span>Great Service, Love their...</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                  deleniti!
+                </p>
+                <span>Hannah Montana, 22 hoirs ago</span>
+              </div>
+              <div class="item">
+                <img class="stars" src="/assets/Rating Stars.svg" alt="" />
+                <span>Great Service, Love their...</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                  deleniti!
+                </p>
+                <span>Hannah Montana, 22 hoirs ago</span>
+              </div>
+              <div class="item">
+                <img class="stars" src="/assets/Rating Stars.svg" alt="" />
+                <span>Great Service, Love their...</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                  deleniti!
+                </p>
+                <span>Hannah Montana, 22 hoirs ago</span>
+              </div>
+              <div class="item">
+                <img class="stars" src="/assets/Rating Stars.svg" alt="" />
+                <span>Great Service, Love their...</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                  deleniti!
+                </p>
+                <span>Hannah Montana, 22 hoirs ago</span>
+              </div>
+              <div class="item">
+                <img class="stars" src="/assets/Rating Stars.svg" alt="" />
+                <span>Great Service, Love their...</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                  deleniti!
+                </p>
+                <span>Hannah Montana, 22 hoirs ago</span>
+              </div>
+              <div class="item">
+                <img class="stars" src="/assets/Rating Stars.svg" alt="" />
+                <span>Great Service, Love their...</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                  deleniti!
+                </p>
+                <span>Hannah Montana, 22 hoirs ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="leaf-seperator">
+            <img src="assets/left-long-arrow.svg" alt="" />
+            <img src="assets/main_logo1.svg" alt="" />
+            <img src="assets/right-long-arrow.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!--------------- Section-2 Ends --------------->
+
+      <!----------------- Section-3 Starts----------------->
+      <section class="section-3">
+        <div class="container">
+          <div class="product-types">
+            <h1>Browse products by type</h1>
+
+            <div class="products grid-row">
+              <a href="" class="column" id="column1">
+                <h1>Edibles</h1>
+              </a>
+              <a href="" class="column" id="column2">
+                <h1>Vapes</h1>
+              </a>
+              <a href="" class="column" id="column3">
+                <h1>Ticture</h1>
+              </a>
+              <a href="" class="column" id="column4">
+                <h1>Flowers</h1>
+              </a>
+              <a href="" class="column" id="column5">
+                <h1>Pre-Rolls</h1>
+              </a>
+              <a href="" class="column" id="column6">
+                <h1>Beverages</h1>
+              </a>
+            </div>
+
+            <a href="">
+              <div class="btn-container">
+                <button class="cta-btn">Browse All</button>
+              </div>
+            </a>
+          </div>
+          <div class="leaf-seperator">
+            <img src="assets/left-long-arrow.svg" alt="" />
+            <img src="assets/main_logo1.svg" alt="" />
+            <img src="assets/right-long-arrow.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!----------------- Section-3 Ends------------------->
+
+      <!----------------- Section-4 Starts---------------- -->
+      <section class="section-4">
+        <div class="container">
+          <div class="guarantee">
+            <div class="heading">
+              <h1>Worry Free Guarantee</h1>
+              <p>
+                Tired it? Don't like it? Don't worry. Send it back, and we'll
+                give you store credit for <br />
+                something new. Terms & condition apply.
+              </p>
+            </div>
+
+            <div class="features">
+              <div class="feature">
+                <img src="/assets/handshake-icon.svg" alt="" />
+                <span>15-Days Guarantee</span>
+              </div>
+              <div class="feature">
+                <img src="/assets/flask.svg" alt="" />
+                <span>DEA Certified Lab Testing</span>
+              </div>
+              <div class="feature">
+                <img src="/assets/carbon_delivery.svg" alt="" />
+                <span>Free Shipping</span>
+              </div>
+            </div>
+          </div>
+          <div class="leaf-seperator">
+            <img src="assets/left-long-arrow.svg" alt="" />
+            <img src="assets/main_logo1.svg" alt="" />
+            <img src="assets/right-long-arrow.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!----------------- Section-4 Ends---------------- -->
+
+      <!----------------- Section-5 Starts---------------- -->
+      <section class="section-5">
+        <div class="container">
+          <div class="best-sellProducts">
+            <h1>Best Selling Products</h1>
+            <div class="owl-carousel carousel_se_02_carousel owl-theme">
+              <div class="item">
+                <a href="">
+                  <div class="product-image">
+                    <img src="/assets/drops_img.png" alt="" />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h2>CBD Oil Drops 600mg - 30ml</h2>
+                  <div class="total-reviews">
+                    <img src="/assets/Rating Stars.svg" alt="" />
+                    <p>60 reviews</p>
+                  </div>
+
+                  <div class="item-price">
+                    <span>$299</span><span>$199</span>
+                  </div>
+                  <a href="">
+                    <div class="btn-container">
+                      <button class="cta-btn">Add to cart</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <a href="">
+                  <div class="product-image">
+                    <img src="/assets/drops_img.png" alt="" />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h2>CBD Oil Drops 600mg - 30ml</h2>
+                  <div class="total-reviews">
+                    <img src="/assets/Rating Stars.svg" alt="" />
+                    <p>60 reviews</p>
+                  </div>
+
+                  <div class="item-price">
+                    <span>$299</span><span>$199</span>
+                  </div>
+                  <a href="">
+                    <div class="btn-container">
+                      <button class="cta-btn">Add to cart</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <a href="">
+                  <div class="product-image">
+                    <img src="/assets/drops_img.png" alt="" />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h2>CBD Oil Drops 600mg - 30ml</h2>
+                  <div class="total-reviews">
+                    <img src="/assets/Rating Stars.svg" alt="" />
+                    <p>60 reviews</p>
+                  </div>
+
+                  <div class="item-price">
+                    <span>$299</span><span>$199</span>
+                  </div>
+                  <a href="">
+                    <div class="btn-container">
+                      <button class="cta-btn">Add to cart</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <a href="">
+                  <div class="product-image">
+                    <img src="/assets/drops_img.png" alt="" />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h2>CBD Oil Drops 600mg - 30ml</h2>
+                  <div class="total-reviews">
+                    <img src="/assets/Rating Stars.svg" alt="" />
+                    <p>60 reviews</p>
+                  </div>
+
+                  <div class="item-price">
+                    <span>$299</span><span>$199</span>
+                  </div>
+                  <a href="">
+                    <div class="btn-container">
+                      <button class="cta-btn">Add to cart</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <a href="">
+                  <div class="product-image">
+                    <img src="/assets/drops_img.png" alt="" />
+                  </div>
+                </a>
+                <div class="product-info">
+                  <h2>CBD Oil Drops 600mg - 30ml</h2>
+                  <div class="total-reviews">
+                    <img src="/assets/Rating Stars.svg" alt="" />
+                    <p>60 reviews</p>
+                  </div>
+
+                  <div class="item-price">
+                    <span>$299</span><span>$199</span>
+                  </div>
+                  <a href="">
+                    <div class="btn-container">
+                      <button class="cta-btn">Add to cart</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="leaf-seperator">
+            <img src="assets/left-long-arrow.svg" alt="" />
+            <img src="assets/main_logo1.svg" alt="" />
+            <img src="assets/right-long-arrow.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!----------------- Section-5 Ends---------------- -->
+
+      <!----------------- Section-6 Starts---------------- -->
+      <section class="section-6">
+        <div class="container">
+          <div class="CBD-uses">
+            <h1>Immersive use of CBD for a soothing life</h1>
+            <div class="use">
+              <div class="l-side">
+                <img src="/assets/lotus.svg" alt="" />
+                <h2>Calm, Relax & Rejuvenate</h2>
+                <p>
+                  High quality non-GMO CBD gummies infused with Ashwagandha for
+                  a mellow & calming experience. Unleash your inner zen with
+                  these premium CBD gummies.
+                </p>
+                <a href="">
+                  <div class="btn-container">
+                    <button class="cta-btn">Shop CBD</button>
+                  </div>
+                </a>
+              </div>
+              <div class="r-side">
+                <img src="/assets/relax_Img.png" alt="" />
+              </div>
+            </div>
+
+            <div class="use">
+              <div class="r-side">
+                <img src="/assets/sleep_img.png" alt="" />
+              </div>
+              <div class="l-side">
+                <img src="/assets/sleep-icon.svg" alt="" />
+                <h2>Calm, Relax & Rejuvenate</h2>
+                <p>
+                  High quality non-GMO CBD gummies infused with Ashwagandha for
+                  a mellow & calming experience. Unleash your inner zen with
+                  these premium CBD gummies.
+                </p>
+                <a href="">
+                  <div class="btn-container">
+                    <button class="cta-btn">Shop CBD</button>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="use">
+              <div class="l-side">
+                <img src="/assets/recovery-icon.svg" alt="" />
+                <h2>Calm, Relax & Rejuvenate</h2>
+                <p>
+                  High quality non-GMO CBD gummies infused with Ashwagandha for
+                  a mellow & calming experience. Unleash your inner zen with
+                  these premium CBD gummies.
+                </p>
+                <a href="">
+                  <div class="btn-container">
+                    <button class="cta-btn">Shop CBD</button>
+                  </div>
+                </a>
+              </div>
+              <div class="r-side">
+                <img src="/assets/recovery_Img.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="leaf-seperator">
+            <img src="assets/left-long-arrow.svg" alt="" />
+            <img src="assets/main_logo1.svg" alt="" />
+            <img src="assets/right-long-arrow.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!----------------- //Section-6 Ends---------------- -->
+
+      <!----------------- Section-7 Starts---------------- -->
+      <section class="section-7">
+        <div class="container">
+          <div class="faq">
+            <h1>FAQ's</h1>
+            <div class="accordion2">
+              <div class="contentBx">
+                <div class="label">
+                  <li>What is CBD?</li>
+                </div>
+                <div class="content">
+                  <p>
+                    CBD, short for cannabidiol, is a naturally occuring compound
+                    found in the hemp plant. It is known its potential
+                    therapeutic benefits.
+                  </p>
+                </div>
+              </div>
+
+              <div class="contentBx">
+                <div class="label">
+                  <li>Is CBD legal?</li>
+                </div>
+                <div class="content">
+                  <p>
+                    The legality if CBD varies depending on your location. In
+                    many countries, CBD derived from hemp with less then 0.3%
+                    THC is legal. However, it's important to check your local
+                    laws and regulations.
+                  </p>
+                </div>
+              </div>
+
+              <div class="contentBx">
+                <div class="label">
+                  <li>What are the potential benefits of using CBD?</li>
+                </div>
+                <div class="content">
+                  <p>
+                    CBD has been associated with potential benefit such as pain
+                    relief, relaxations, stress, reductions, improved sleep, and
+                    support for overall well-being. However, more research is
+                    needed to fully understand its effect.
+                  </p>
+                </div>
+              </div>
+
+              <div class="contentBx">
+                <div class="label">
+                  <li>Will CBD make me feel high?</li>
+                </div>
+                <div class="content">
+                  <p>
+                    No, CBD does not produce the psychoactive effect typically
+                    associated with marijuana. It is non-intoxicating as it
+                    contains minimal to no THC, the compound responsible for the
+                    "high" feeling.
+                  </p>
+                </div>
+              </div>
+
+              <div class="contentBx">
+                <div class="label">
+                  <li>How do I choose the right CBD product for me?</li>
+                </div>
+                <div class="content">
+                  <p>
+                    Consider factors such as your specific needs, desired
+                    methods of consumptions (e.g, oil tinctures, capsules,
+                    topicals), CBD concerations, and product quality (look for
+                    third party lab testing).
+                  </p>
+                </div>
+              </div>
+
+              <div class="contentBx">
+                <div class="label">
+                  <li>
+                    Are hemp-derived CBD products different from
+                    marijuana-derived CBD products?
+                  </li>
+                </div>
+                <div class="content">
+                  <p>
+                    Hemp-derived CBD products contains less than 0.3% THC, while
+                    marijuana-derived CBD products may have higher THC level.
+                    Hemp-derived CBD is legal in more places and is typically
+                    used for CBD products.
+                  </p>
+                </div>
+              </div>
+
+              <div class="contentBx">
+                <div class="label">
+                  <li>Are there any potential nside effect of using CBD?</li>
+                </div>
+                <div class="content">
+                  <p>
+                    CBD is generally wll-tolerated, but some people may
+                    experience side effects such as dry mouth, fatigue, changes
+                    in appetite or diarrhea. It's advisable to start with lower
+                    dosage and consult and health care and professional if you
+                    have any.
+                  </p>
+                </div>
+              </div>
+
+              <div class="contentBx">
+                <div class="label">
+                  <li>How should I use CBd products?</li>
+                </div>
+                <div class="content">
+                  <p>
+                    CBD products come in various forms, including oils,
+                    capsules, topical and edible. Follow the manifactures
+                    instrcutions on the product packaging for the reccommended
+                    dosage and uses instructions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="leaf-seperator">
+            <img src="assets/left-long-arrow.svg" alt="" />
+            <img src="assets/main_logo1.svg" alt="" />
+            <img src="assets/right-long-arrow.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!----------------- //Section-7 Ends---------------- -->
+
+      <!----------------- //Section-8 Starts---------------- -->
+
+      <!--********* Code merge with Vishal is pending *************-->
+
+      <!----------------- //Section-8 Ends---------------- -->
+
+      <!----------------- //Section-9 Starts---------------- -->
+      <section class="section-9">
+        <div class="container">
+          <div class="wrapper">
+            <div class="newsletter">
+              <div class="sign-up">
+                <h2>Sign Up For Our Weekly Newsletter and Discount Offers</h2>
+                <div class="input-field">
+                  <input type="text" placeholder="Your Email Here" />
+                  <a href="">
+                    <div class="btn-container">
+                      <button class="cta-btn">Send</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------------- //Section-9 Ends---------------- -->
+
+      <!----------------- Section-10 Starts---------------- -->
+      <section class="section-10">
+        <div class="delivery-services grid-row">
+          <div class="column">
+            <img src="/assets/carbon_delivery.svg" alt="" />
+            <span
+              >Free Delivery above <br />
+              <span>99$</span>
+            </span>
+          </div>
+          <div class="column">
+            <img src="/assets/customer_care_icon.svg" alt="" />
+            <span
+              >World Class <br />
+              <span>Customer Service</span>
+            </span>
+          </div>
+          <div class="column">
+            <img src="assets/handshake-icon.svg" alt="" />
+            <span
+              >Worry Free <br />
+              <span>Guarantee</span>
+            </span>
+          </div>
+          <div class="column">
+            <img src="/assets/walk_support_icon.svg" alt="" />
+            <span
+              >All Purchases <br />
+              <span>Support Veterans</span>
+            </span>
+          </div>
+        </div>
+      </section>
+      <!----------------- //Section-10 Ends---------------- -->
+     </main>
+
+     
+      <!----------------- Footer Section Starts---------------- -->
+      <footer>
+        <div class="container">
+          <div class="social-links">
+            <a href="">
+            <div class="main_logo">
+              <img src="/assets/main_logo1.svg" alt="" />
+              <img src="/assets/main_logo2.svg" alt="" />
+            </div>
+          </a>
+            <div class="social-icons">
+              <a href=""
+                ><div class="icon">
+                  <img src="/assets/fb-icon-default.svg" alt="" /></div
+              ></a>
+              <a href=""
+                ><div class="icon">
+                  <img src="/assets/tweeter-icon-default.svg" alt="" /></div
+              ></a>
+              <a href=""
+                ><div class="icon">
+                  <img src="/assets/pinterest-icon-default.svg" alt="" /></div
+              ></a>
+              <a href=""
+                ><div class="icon">
+                  <img src="/assets/instagram-icon-default.svg" alt="" /></div
+              ></a>
+              <a href=""
+                ><div class="icon">
+                  <img src="/assets/youtube-icon-default.svg" alt="" /></div
+              ></a>
+            </div>
+          </div>
+
+          <!-- Footer navigation for Desktop -->
+          <div class="foot-nav">
+            <div class="foot-links">
+              <span>Support Center</span>
+              <a href="" class="phone">
+                <img src="/assets/phone.svg" alt="" />
+                <p>021 286 9055</p>
+              </a>
+              <a href="" class="e-mail">
+                <img src="/assets/mail.svg" alt="" />
+                <p>info@purecalmleaf</p>
+              </a>
+            </div>
+            <div class="foot-links">
+              <span>Concierge Desk</span>
+              <ul>
+                <li><a href=""> All Products </a></li>
+                <li><a href=""> Delivery & Returns </a></li>
+                <li><a href="">Refund policy</a></li>
+                <li><a href="">Privacy policy</a></li>
+                <li><a href="">Terms of Service</a></li>
+              </ul>
+            </div>
+            <div class="foot-links">
+              <span>Company</span>
+              <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Shop by Categories</a></li>
+                <li><a href="">Shop by Strains</a></li>
+                <li><a href="">Shop by Brands</a></li>
+              </ul>
+            </div>
+            <div class="foot-links">
+              <span>Quick Links</span>
+              <ul>
+                <li><a href="">Blog</a></li>
+                <li><a href="">FAQ's</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">FDA Disclaimer</a></li>
+                <li><a href="">Legal Status</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- //Footer navigation for Desktop -->
+          
+          
+          <!-- Footer navigation for Mobile -->
+          <div class="accordion2">
+            <div class="contentBx">
+              <div class="label">
+                <li>Support Centre</li>
+              </div>
+              <div class="content">
+                <div class="foot-links">
+                  <a href="" class="phone">
+                    <img src="/assets/phone.svg" alt="" />
+                    <p>021 286 9055</p>
+                  </a>
+                  <a href="" class="e-mail">
+                    <img src="/assets/mail.svg" alt="" />
+                    <p>info@purecalmleaf</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contentBx">
+              <div class="label">
+                <li>Concierge Desk</li>
+              </div>
+              <div class="content">
+                <p>
+                  The legality if CBD varies depending on your location. In
+                  many countries, CBD derived from hemp with less then 0.3%
+                  THC is legal. However, it's important to check your local
+                  laws and regulations.
+                </p>
+              </div>
+            </div>
+
+            <div class="contentBx">
+              <div class="label">
+                <li>Company</li>
+              </div>
+              <div class="content">
+                <p>
+                  CBD has been associated with potential benefit such as pain
+                  relief, relaxations, stress, reductions, improved sleep, and
+                  support for overall well-being. However, more research is
+                  needed to fully understand its effect.
+                </p>
+              </div>
+            </div>
+
+            <div class="contentBx">
+              <div class="label">
+                <li>Quick Links</li>
+              </div>
+              <div class="content">
+                <p>
+                  No, CBD does not produce the psychoactive effect typically
+                  associated with marijuana. It is non-intoxicating as it
+                  contains minimal to no THC, the compound responsible for the
+                  "high" feeling.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- //Footer navigation for Mobile -->
+
+        </div>
+      </footer>
+      <!----------------- //Footer Section Ends---------------- -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      const nextIcon =
+        '<img src= "./assets/circled_right-arrow.svg" alt:"right">';
+      const prevIcon =
+        '<img src= "./assets/circled_left-arrow.svg" alt:"left">';
+
+      $(".carousel_se_01_carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        navText: [prevIcon, nextIcon],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 3,
+          },
+          1400: {
+            items: 4.5,
+          },
+        },
+      });
+
+      $(".carousel_se_02_carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        navText: [prevIcon, nextIcon],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2.5,
+          },
+          1000: {
+            items: 2.5,
+          },
+          1400: {
+            items: 4.5,
+          },
+        },
+      });
+    </script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
