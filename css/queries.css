@@ -532,7 +532,20 @@
   .main_blog {
   padding: 0 1.5rem;
   }
-  /********login-page-responsive-css*********/
+  /********author-profile-page-responsive-css*********/
+  .shortened-text {
+    margin-bottom: 2.5rem;
+  }
+  .widgets-review-tfc h5 {
+  font-size: 0.8125rem;
+  }
+  /*************single-blog-page-responsive-css***************/
+  .artical-blog-text h3 {
+    margin-bottom: 1rem;
+}
+.artical_container .sidebar-adv-info .tfc-adv-info .intro-tfc ol {
+  margin: 2.5rem 0 2.5rem 1.6rem;
+}
 
   }
   @media (max-width: 1250px) {
@@ -562,7 +575,7 @@
   height: 28rem;
   }
   .product-image {
-  padding-right: 2.45rem;
+  margin-right: 2.45rem;
   }
   .btn-container {
   width: 9rem;
@@ -573,13 +586,64 @@
   .cta-btn {
   padding: 0.7rem;
   }
+    /********author-profile-page-responsive-css*********/
+    .shortened-text {
+      margin-bottom: 1rem;
+  }
+      /*************single-blog-page-responsive-css***************/
+  .key_Highlight {
+  margin-right: 2.45rem;
+}
   }
   /********login-page-responsive-css*********/
   @media (max-width: 1210px) {
   .link-icon-social-network {
   grid-template-columns: 1fr;
   }
+  /********author-profile-page-responsive-css*********/
+  .shortened-text {
+  margin-bottom: 1rem;
   }
+  .author-id .author-about h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.2rem;
+  }
+  .author_profile .author-id {
+  gap: 1rem;
+  }
+  .author-id .author-about p {
+  font-size: 0.8125rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.01rem;
+  }
+  .author_profile .blog-post-tfc .tfc-blog-post h2 {
+  font-size: 1.625rem;
+  margin-bottom: 3rem;
+  }
+  .author_profile .shortened-text p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  }
+  .author_profile .shortened-text .moreellipses a {
+  font-size: 1rem;
+  }
+  /*************single-blog-page-responsive-css***************/
+  .product-image > h3 {
+    margin-bottom: 3rem;
+  }
+  .share_Network {
+    margin-bottom: 40px;
+}
+.share_blog {
+  flex-direction: column-reverse;
+  margin-bottom: 0;
+}
+.tfc-artical-blog {
+  grid-template-columns: 1fr;
+}
+  }
+
+
   @media (max-width: 1024px) {
   .located-page {
   padding: 2rem 0 2rem 0;
@@ -591,7 +655,7 @@
   padding-left: 1.5rem;
   }
   .product-image {
-  padding-right: 0rem;
+  margin-right: 0rem;
   }
   .delta-image {
   height: 336px;
@@ -608,7 +672,22 @@
   .tfc-registation {
   padding: 3rem 0 3rem 0;
   }
+  /*************single-blog-page-responsive-css***************/
+  .info-tag .tfc-grid-tag {
+  grid-template-columns: 1fr;
   }
+  .key_Highlight {
+  margin-right: 0rem;
+  margin-bottom: 3.75rem;
+  }
+  .artical_container .sidebar-adv-info .tfc-adv-info 
+  .Subscribe_block .subscribe_heading h2 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+  }
+
   @media (max-width: 991px) {
   .blog-post-tfc {
   display: grid;
@@ -662,6 +741,16 @@
   .Register_form {
   padding: 0 0 0 1.5rem;
   }
+  
+  /*************single-blog-page-responsive-css***************/
+  .sidebar-adv-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+}
+  .tfc-adv-info {
+    margin-right: 0rem;
+  }
 }
 @media (max-width: 767px) {
   .tfc-blog-post h4 {
@@ -677,7 +766,7 @@
       line-height: 3rem;
   }
   .delta-image {
-      height: 680px;
+      height: auto;
   }
   .cta-btn {
       padding: 0.7rem;
@@ -704,10 +793,45 @@
 .tfc_space-login {
   margin-top: 2.5rem;
 }
+  /********author-profile-page-responsive-css*********/
+  .author_profile .author-id {
+    grid-template-columns: 1fr;
+    margin-bottom: 5rem;
+}
+.dtx-post-main {
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+.author_profile .blog-post-tfc .tfc-blog-post h2 {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.author-id {
+  grid-template-columns: 1fr;
+}
+.tfc-video-play {
+  height: auto;
+}
 }
 @media (max-width:  675px) {
   .cta-btn {
       padding: 1rem;
   }
+  /********author-profile-page-responsive-css*********/
+  .located-page ul {
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.625rem;
+}
+  /*************single-blog-page-responsive-css***************/
+.light-leaf-tfc{
+  display: none;
+}
+.Subscribe_block {
+  grid-template-columns: 1fr;
+}
+.subscribe_heading {
+  margin-bottom: 1rem;
+}
 }
 
