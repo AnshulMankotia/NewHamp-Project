@@ -70,6 +70,7 @@ picture {
 h1 {
   font-family: var(--main-heading-font);
   font-weight: 500;
+  font-size: 4rem;
 }
 p {
   color: var(--paragraph-clr);
@@ -974,6 +975,28 @@ margin-inline: auto;
 /* ------------------//Section-7 Css Ends----------- */
 
 
+/* ------------------Section-8 Css Starts----------- */
+.section-8 {
+  padding: 5rem 0 0 0;
+  margin-bottom: var(--spacer);
+}
+.section-8 .blog-section-home{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.section-8 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+.section-8 .tfc-blog-post {
+  padding-bottom: 0rem;
+}
+/* ------------------//Section-8 Css Ends----------- */
+
+
 
 
 /* ------------------Section-9 Css Starts----------- */
@@ -1167,6 +1190,114 @@ footer .accordion2{
   display: none;
 }
 /*------------------- Footer Css Ends --------------*/
+
+/* *****************CATEGORY PAGE CSS STARTS*************** */
+.category-section h2{
+  font-family: Roboto-Medium-500;
+  font-size: 2.15rem;
+  font-weight: 500;
+}
+.category-section p{
+  font-family: Roboto-Regular-400;
+  font-weight: 400;
+}
+.category-section .btn-container {
+  display: inline-block;
+}
+/*----------------Title Section CSS Starts-----------------  */
+.category-title-section{
+  margin-top: 13rem;
+  padding: 2rem 0;
+  min-height: 30vh;
+  background-color: rgba(255, 255, 255, 1);
+}
+.category-title-section .container{
+  display: flex;
+  justify-content: center;
+}
+.category-title-section .located-page{
+  padding: 1rem 0 3rem 0;
+}
+.category-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+/*----------------//Title Section CSS Ends-----------------  */
+
+
+/*----------------Category Description Section CSS Starts-----------------  */
+.category-description-section{
+  padding: 2rem 0 4rem 0;
+}
+.category-description-section .description h2,
+ .description p {
+ padding: 1rem 0;
+}
+.category-description-section .description{
+  padding-bottom: 4rem;
+}
+/*----------------//Category Description Section CSS Ends-----------------  */
+
+
+
+/*----------------More Details CSS Starts-----------------  */
+.more-details{
+  margin: 8rem 0 0rem 0;
+}
+.more-details .content > h2{
+  margin-top: 3rem;
+}
+.more-details .question{
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.more-details .question li{
+  color: var(--paragraph-clr);
+  font-family: Roboto-Regular-400;
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-left: 1.5rem;
+}
+.more-details .accordion2 .contentBx .content {
+  padding: 0rem;
+}
+.more-details .accordion2 .contentBx.active .content {
+  max-height: 3000px;
+  padding: 0rem;
+}
+.more-details .fa-angle-right{
+  transform: rotate(0deg);
+  transition: transform 0.2s ease-in-out;
+  font-size: 1rem;
+}
+.more-details .accordion2 .contentBx.active .fa-angle-right{
+  transform: rotate(90deg);
+}
+.more-details .accordion2 .contentBx {
+    background-color: transparent;
+}
+.more-details .accordion2 .contentBx .label::after {
+ display: none;
+}
+.more-details .accordion2 .contentBx .label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0rem 0;
+}
+.more-details .accordion2 .contentBx .content {
+  background-color: transparent;
+}
+/*----------------//More Details CSS Ends-----------------  */
+
+
+
+/* *****************CATEGORY PAGE CSS ENDS***************** */
 
 
 /******** vishal css***************/
