@@ -36,6 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
+
 //------------------------This is for Section-7 Accordion---------------------
 const accordion2 = document.getElementsByClassName('contentBx');
 for (i = 0; i < accordion2.length; i++) {
@@ -44,4 +46,49 @@ for (i = 0; i < accordion2.length; i++) {
     });
 }
 
-  
+// --------------------------Filter Price Range-----------------------
+var lowerSlider = document.querySelector('#lower');
+var  upperSlider = document.querySelector('#upper');
+
+document.querySelector('#two').value=upperSlider.value;
+document.querySelector('#one').value=lowerSlider.value;
+
+var  lowerVal = parseInt(lowerSlider.value);
+var upperVal = parseInt(upperSlider.value);
+
+upperSlider.oninput = function () {
+    lowerVal = parseInt(lowerSlider.value);
+    upperVal = parseInt(upperSlider.value);
+
+    if (upperVal < lowerVal + 4) {
+        lowerSlider.value = upperVal - 4;
+        if (lowerVal == lowerSlider.min) {
+        upperSlider.value = 4;
+        }
+    }
+    document.querySelector('#two').value=this.value
+};
+
+lowerSlider.oninput = function () {
+    lowerVal = parseInt(lowerSlider.value);
+    upperVal = parseInt(upperSlider.value);
+    if (lowerVal > upperVal - 4) {
+        upperSlider.value = lowerVal + 4;
+        if (upperVal == upperSlider.max) {
+            lowerSlider.value = parseInt(upperSlider.max) - 4;
+        }
+    }
+    document.querySelector('#one').value=this.value
+}; 
+// --------------------------Filter Price Range----------------------- 
+
+
+
+// -----------------This is for Sub Category toggeling Start-----------------------
+const accordion3 = document.querySelectorAll(".hrline");
+for (i = 0; i < accordion3.length; i++) {
+    accordion3[i].addEventListener('click', function () {
+        this.classList.toggle('active2')
+    });
+}
+// -----------------This is for Sub Category toggeling End-----------------------
