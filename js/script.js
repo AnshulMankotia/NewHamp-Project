@@ -8,14 +8,44 @@ hamburgerMenuBtn.addEventListener("click", function () {
     accordion.classList.toggle("open");
     overlay.classList.toggle("open");
 });
-overlay.addEventListener("click", function() {
+overlay.addEventListener("click", function () {
     accordion.classList.remove("open");
     overlay.classList.remove("open");
-  });
-  offCanvasCloseArrow.addEventListener("click", function() {
+    login_offcanvas.classList.remove('open');
+    cart_offcanvas.classList.remove('open');
+});
+offCanvasCloseArrow.addEventListener("click", function () {
     accordion.classList.remove("open");
     overlay.classList.remove("open");
-  });
+});
+
+
+//---------------- This is for Off-Canvas LogIn/Register Menu------------------------ 
+const offCanvasOpen = document.querySelector("#offCanvasOpen");
+const cartoffCanvasOpen = document.querySelector("#shopping-cart");
+const cartoffCanvasClose = document.querySelector("#cartoffCanvasClose");
+const offCanvasClose = document.querySelector("#offCanvasClose");
+const login_offcanvas = document.querySelector(".login-offcanvas");
+const cart_offcanvas = document.querySelector(".cart-offcanvas");
+offCanvasOpen.addEventListener('click', () => {
+    login_offcanvas.classList.add('open');
+    overlay.classList.toggle("open");
+});
+
+cartoffCanvasOpen.addEventListener('click', () => {
+    cart_offcanvas.classList.add('open');
+    overlay.classList.toggle("open");
+});
+
+offCanvasClose.addEventListener('click', () => {
+    login_offcanvas.classList.remove('open');
+    overlay.classList.remove("open");
+});
+cartoffCanvasClose.addEventListener('click', () => {
+    cart_offcanvas.classList.remove('open');
+    overlay.classList.remove("open");
+});
+//---------------- //This is for Off-Canvas LogIn/Register Menu------------------------ 
 
 
 // -----------------This is for accordion toggeling-----------------------
@@ -47,12 +77,12 @@ for (i = 0; i < accordion2.length; i++) {
 
 // --------------------------Filter Price Range-----------------------
 var lowerSlider = document.querySelector('#lower');
-var  upperSlider = document.querySelector('#upper');
+var upperSlider = document.querySelector('#upper');
 
-document.querySelector('#two').value=upperSlider.value;
-document.querySelector('#one').value=lowerSlider.value;
+document.querySelector('#two').value = upperSlider.value;
+document.querySelector('#one').value = lowerSlider.value;
 
-var  lowerVal = parseInt(lowerSlider.value);
+var lowerVal = parseInt(lowerSlider.value);
 var upperVal = parseInt(upperSlider.value);
 
 upperSlider.oninput = function () {
@@ -62,10 +92,10 @@ upperSlider.oninput = function () {
     if (upperVal < lowerVal + 4) {
         lowerSlider.value = upperVal - 4;
         if (lowerVal == lowerSlider.min) {
-        upperSlider.value = 4;
+            upperSlider.value = 4;
         }
     }
-    document.querySelector('#two').value=this.value
+    document.querySelector('#two').value = this.value
 };
 
 lowerSlider.oninput = function () {
@@ -77,8 +107,8 @@ lowerSlider.oninput = function () {
             lowerSlider.value = parseInt(upperSlider.max) - 4;
         }
     }
-    document.querySelector('#one').value=this.value
-}; 
+    document.querySelector('#one').value = this.value
+};
 // --------------------------Filter Price Range----------------------- 
 
 
@@ -91,4 +121,3 @@ for (i = 0; i < accordion3.length; i++) {
     });
 }
 // -----------------This is for Sub Category toggeling End-----------------------
-  
